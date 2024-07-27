@@ -1,6 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-v2.0 | 20110126
-License: none (public domain)
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
 */
 
 html,
@@ -134,32 +134,20 @@ table {
   border-spacing: 0;
 }
 
-.h1 {
-  font-size: 40px;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-.h2 {
-  font-size: 32px;
-}
-
-.h3 {
-  font-size: 28px;
-}
-
-.mb-4 {
-  margin-bottom: 24px;
-}
-
-.pt-4 {
-  padding-top: 24px;
-}
-
-.pb-4 {
-  padding-bottom: 24px;
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .container {
-  width: 1296px;
+  width: 640px;
   margin: 0 auto;
 }
 
@@ -167,35 +155,30 @@ table {
   display: flex;
 }
 
-.justify-content-space-between {
-  justify-content: space-between;
+.title {
+  font-size: 20px;
+  line-height: 1.2;
 }
 
-.justify-content-space-around {
-  justify-content: space-around;
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
 }
 
 .text-align-center {
   text-align: center;
 }
 
-.header {
-  padding: 20px 0;
-  background: skyblue;
-}
-
-.content {
-  background: wheat;
-}
-
-.content li a {
-  color: blue;
-  text-decoration: none;
-  font-size: 20px;
-  display: block;
-}
-
 .footer {
-  padding: 20px 0;
-  background: skyblue;
+  padding: 48px 0;
 }
+
+
