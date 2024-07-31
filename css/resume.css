@@ -148,6 +148,12 @@ body {
 img {
   max-width: 100%;
   height: auto;
+  vertical-align: middle
+}
+
+a {
+  display: block;
+  text-decoration: none;
 }
 
 .mx-40 {
@@ -189,6 +195,10 @@ img {
 
 .text-align-right {
   text-align: right;
+}
+
+.text-dark {
+  color: #000000;
 }
 
 .header {

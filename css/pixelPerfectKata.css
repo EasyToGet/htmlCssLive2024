@@ -140,6 +140,10 @@ table {
   box-sizing: border-box;
 }
 
+body {
+  line-height: 1.5;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -162,7 +166,6 @@ img {
 
 .text {
   font-size: 16px;
-  line-height: 1.5;
 }
 
 .mr-20 {
